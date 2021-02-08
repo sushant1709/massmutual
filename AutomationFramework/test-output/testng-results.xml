@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18145" started-at="2021-02-08T17:32:25Z" finished-at="2021-02-08T17:32:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.massmutual.runners.TestRunner@11053e1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="18145" started-at="2021-02-08T17:32:25Z" finished-at="2021-02-08T17:32:43Z">
+      <class name="com.massmutual.runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.massmutual.runners.TestRunner@11053e1]" name="setUpClass" is-config="true" duration-ms="1021" started-at="2021-02-08T23:02:25Z" finished-at="2021-02-08T23:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.massmutual.runners.TestRunner@11053e1]" name="reportSetup" is-config="true" duration-ms="51" started-at="2021-02-08T23:02:26Z" finished-at="2021-02-08T23:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.massmutual.runners.TestRunner@11053e1]" name="feature" duration-ms="15731" started-at="2021-02-08T23:02:26Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-02-08T23:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Problem 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="appendFinalHTMLReport(org.testng.ITestResult)[pri:0, instance:com.massmutual.runners.TestRunner@11053e1]" name="appendFinalHTMLReport" is-config="true" duration-ms="2" started-at="2021-02-08T23:02:42Z" finished-at="2021-02-08T23:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.massmutual.runners.TestRunner@11053e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendFinalHTMLReport -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.massmutual.runners.TestRunner@11053e1]" name="teardown" duration-ms="8" started-at="2021-02-08T23:02:42Z" finished-at="2021-02-08T23:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="appendFinalHTMLReport(org.testng.ITestResult)[pri:0, instance:com.massmutual.runners.TestRunner@11053e1]" name="appendFinalHTMLReport" is-config="true" duration-ms="1" started-at="2021-02-08T23:02:42Z" finished-at="2021-02-08T23:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=teardown status=SUCCESS method=TestRunner.teardown()[pri:0, instance:com.massmutual.runners.TestRunner@11053e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appendFinalHTMLReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.massmutual.runners.TestRunner@11053e1]" name="tearDownClass" is-config="true" duration-ms="937" started-at="2021-02-08T23:02:42Z" finished-at="2021-02-08T23:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.massmutual.runners.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

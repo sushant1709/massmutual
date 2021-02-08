@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 621500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefination.intiate(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 13677614900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Problem1StepDefinition.intiate(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "this feature file is to testa and verify values and total  Balance",
+        "description": "",
+        "id": "problem-1;this-feature-file-is-to-testa-and-verify-values-and-total--balance",
+        "after": [
+          {
+            "result": {
+              "duration": 130400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonStepDefination.cleanUp(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 29700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Problem1StepDefinition.cleanUp(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1366708400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User in on values Page",
+            "match": {
+              "location": "Problem1StepDefinition.user_in_on_values_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 41600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User verify right count of values appear on screen",
+            "match": {
+              "location": "Problem1StepDefinition.User_verify_right_count_of_values_appear_on_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4083300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify the value on the screen are greater then 0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0",
+                  "offset": 53
+                }
+              ],
+              "location": "Problem1StepDefinition.user_verify_the_value_on_the_screen_are_greater_then(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User verify total balance is correct based on listed values",
+            "match": {
+              "location": "Problem1StepDefinition.user_verify_total_balance_is_correct_based_on_listed_values()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User verify values are formmated as currencies",
+            "match": {
+              "location": "Problem1StepDefinition.user_verify_values_are_formmated_as_currencies()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Problem1"
+          }
+        ]
+      }
+    ],
+    "name": "Problem 1",
+    "description": "",
+    "id": "problem-1",
+    "keyword": "Feature",
+    "uri": "features/problem1.feature"
+  }
+]
