@@ -25,7 +25,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 /**
- * @author sk037008/sushant
+ * @author /sushant
  * 
  *         Custom built  WebDriver Methods
  *
