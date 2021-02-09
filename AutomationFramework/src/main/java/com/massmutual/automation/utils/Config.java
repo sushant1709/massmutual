@@ -5,7 +5,7 @@ import java.util.Properties;
 
 /**
  * @author Sushant
- * This clsss 
+ * This clsss i sused to read property file
  */
 public class Config {
 	private static Properties configFile;
