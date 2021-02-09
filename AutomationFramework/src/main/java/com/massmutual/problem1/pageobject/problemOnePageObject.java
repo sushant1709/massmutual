@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.massmutual.problem1.pageobject;
 
 import java.util.ArrayList;
